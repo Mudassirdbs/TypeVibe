@@ -75,10 +75,10 @@ export default function Page() {
               volume={soundVolume}
             />
           </div>
-          <p className="text-muted-foreground/40 text-xs">
+          <p className="text-muted-foreground text-xs font-medium">
             Built by{" "}
             <a
-              className="text-muted-foreground/60 underline-offset-2 hover:text-foreground hover:underline"
+              className="font-semibold text-primary underline underline-offset-4 decoration-primary/40 hover:decoration-primary hover:text-primary/80 transition-colors"
               href={siteConfig.creatorUrl}
               rel="noopener noreferrer"
               target="_blank"
@@ -87,7 +87,7 @@ export default function Page() {
             </a>
             . The source code is available on{" "}
             <a
-              className="text-muted-foreground/60 underline-offset-2 hover:text-foreground hover:underline"
+              className="font-semibold text-primary underline underline-offset-4 decoration-primary/40 hover:decoration-primary hover:text-primary/80 transition-colors"
               href={siteConfig.github}
               rel="noopener noreferrer"
               target="_blank"
