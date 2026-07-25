@@ -1,179 +1,162 @@
-﻿<a name="readme-top"></a>
+<a name="readme-top"></a>
 
-<img width="1440" alt="Typevibe - typing test with mechanical keyboard sounds" src=".github/images/img_main.png" />
+<div align="center">
+  <h1>⌨️ Typevibe</h1>
+  <p><strong>A modern, glassmorphic typing speed test with realistic mechanical keyboard sounds</strong></p>
 
-<p align="center">
-  <h3 align="center">Typevibe</h3>
-  <p align="center">
-    A free typing test with realistic mechanical keyboard sounds
-    <br />
-    <a href="https://Typevibe.mudassirasghar.dev/"><strong>Try it live Â»</strong></a>
-    <br />
-    <br />
-    <a href="https://Typevibe.mudassirasghar.dev/">Website</a>
-    &middot;
-    <a href="https://github.com/Mudassirdbs/Typevibe/issues">Issues</a>
-    &middot;
-    <a href="https://github.com/Mudassirdbs/Typevibe/issues/new?labels=enhancement&template=FEATURE_REQUEST_TEMPLATE.md">Request Feature</a>
+  <p>
+    <a href="https://typevibe.mudassirasghar.dev"><strong>Live Demo »</strong></a>
+    ·
+    <a href="https://github.com/Mudassirdbs/TypeVibe/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Mudassirdbs/TypeVibe/issues/new?labels=enhancement&template=FEATURE_REQUEST_TEMPLATE.md">Request Feature</a>
   </p>
-</p>
 
-<p align="center">
-  <a href="https://mudassirasghar.dev">
-    <img src="https://custom-icon-badges.demolab.com/badge/made%20by%20-Mudassir%20Asghar-556bf2?logo=github&logoColor=white&labelColor=101827" alt="Made by Mudassir Asghar">
-  </a>
-  <a href="https://github.com/Mudassirdbs/Typevibe/stargazers">
-    <img src="https://img.shields.io/github/stars/Mudassirdbs/Typevibe?style=flat&logo=github" alt="GitHub Stars">
-  </a>
-  <a href="https://github.com/Mudassirdbs/Typevibe/forks">
-    <img src="https://img.shields.io/github/forks/Mudassirdbs/Typevibe?style=flat" alt="GitHub Forks">
-  </a>
-  <a href="https://github.com/Mudassirdbs/Typevibe/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/Mudassirdbs/Typevibe?color=dddddd&labelColor=000000" alt="License">
-  </a>
-  <a href="https://www.typescriptlang.org/">
-    <img src="https://img.shields.io/github/languages/top/Mudassirdbs/Typevibe?&logoColor=%23007ACC&label=TypeScript" alt="Top Language">
-  </a>
-  <a href="https://github.com/Mudassirdbs/Typevibe/commits/main">
-    <img src="https://img.shields.io/github/commit-activity/t/Mudassirdbs/Typevibe?style=flat&logo=github" alt="Commits">
-  </a>
-  <a href="https://github.com/Mudassirdbs/Typevibe/pulls">
-    <img src="https://img.shields.io/github/issues-pr/Mudassirdbs/Typevibe?color=brightgreen&label=PRs" alt="Pull Requests">
-  </a>
-  <img src="https://img.shields.io/github/deployments/Mudassirdbs/Typevibe/Production?logo=vercel&label=Website" alt="Deployment Status">
-</p>
+  <p>
+    <a href="https://mudassirasghar.dev">
+      <img src="https://custom-icon-badges.demolab.com/badge/made%20by%20-Mudassir%20Asghar-556bf2?logo=github&logoColor=white&labelColor=101827" alt="Made by Mudassir Asghar">
+    </a>
+    <a href="https://github.com/Mudassirdbs/TypeVibe/stargazers">
+      <img src="https://img.shields.io/github/stars/Mudassirdbs/TypeVibe?style=flat&logo=github" alt="GitHub Stars">
+    </a>
+    <a href="https://github.com/Mudassirdbs/TypeVibe/forks">
+      <img src="https://img.shields.io/github/forks/Mudassirdbs/TypeVibe?style=flat" alt="GitHub Forks">
+    </a>
+    <a href="https://github.com/Mudassirdbs/TypeVibe/blob/main/LICENSE">
+      <img src="https://img.shields.io/github/license/Mudassirdbs/TypeVibe?color=dddddd&labelColor=000000" alt="License">
+    </a>
+    <a href="https://www.typescriptlang.org/">
+      <img src="https://img.shields.io/github/languages/top/Mudassirdbs/TypeVibe?logoColor=%23007ACC&label=TypeScript" alt="Top Language">
+    </a>
+    <a href="https://upstash.com/">
+      <img src="https://img.shields.io/badge/Database-Upstash%20Redis-00E599?logo=redis&logoColor=white" alt="Upstash Redis">
+    </a>
+  </p>
+</div>
 
-<details>
-<summary>Table of Contents</summary>
+<br/>
 
-- [About](#about)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Getting Started](#-getting-started)
-- [Scripts](#-scripts)
-- [Contributing](#-contributing)
-- [Follow Me](#-follow-me)
-- [Deployment](#-deployment)
-- [Give A Star](#-give-a-star)
-- [Star History](#-star-history)
+## 📖 About The Project
 
+**Typevibe** is a open-source typing speed test crafted with a visual-first aesthetic. It pairs **realistic mechanical keyboard audio feedback** with real-time WPM tracking, interactive virtual keyboard visuals, and customizable themes and typefaces.
 
-</details>
+---
 
-## About
+## ✨ Features
 
-**Typevibe** is a free online typing test with **realistic mechanical keyboard sounds** and real-time WPM tracking. Practice with timed tests, word counts, quotes, or zen mode - featuring an interactive on-screen keyboard, satisfying key sounds, and detailed accuracy stats.
+| Feature | Description |
+|---|---|
+| 🎵 **Mechanical Key Sounds** | Web Audio API per-key sound feedback with volume control and sound wave visualizer. |
+| 🗄️ **Serverless Analytics** | Powered by **Upstash Redis** for lightning-fast global visit counter tracking. |
+| ⏱️ **Multiple Test Modes** | Practice with **Time** (15s–120s), **Words** count, **Quotes**, or **Zen** free-flow typing. |
+| ⌨️ **Virtual 3D Keyboard** | Interactive on-screen keyboard highlighting physical keypresses in real time. |
+| 📊 **Speed & Accuracy Stats** | Live WPM, Raw Speed, Accuracy %, Consistency, and interactive WPM progression graph. |
+| 📋 **Score Sharing** | One-click copy formatted result summary cards ready to share on Twitter/Discord. |
+| 🎨 **Theme & Font Selector** | 6 color schemes (Classic, Mint, Royal, Dolch, Sand, Scarlet) & 9 monospace/display typefaces. |
+| ⚙️ **Centred Settings Modal** | Image 2 style centered glass dialog with keyboard shortcuts (`⌘K` toggle / `Esc` close). |
 
-## âœ¨ Features
+---
 
-| Area | What you get |
-|------|----------------|
-| **Test modes** | Time (15sâ€“120s), word count, quotes (length presets), zen |
-| **Mechanical key sounds** | Realistic per-key audio feedback via Web Audio; multiple keyboard themes |
-| **Virtual keyboard** | Interactive on-screen keyboard that highlights keys as you type (desktop) |
-| **Results** | WPM, raw speed, accuracy, character breakdown, consistency, elapsed time, WPM-over-time chart |
-| **Keyboard themes** | 6 color schemes - Classic, Mint, Royal, Dolch, Sand, Scarlet - each tints the entire UI |
-| **Typing fonts** | 9 fonts - Geist Mono, JetBrains Mono, Fira Code, IBM Plex Mono, Source Code Pro, Inter Tight, Space Grotesk, Nunito, Atkinson Hyperlegible |
-| **Settings** | Theme (light/dark/system), accent color, font picker, show keyboard, sound volume, live WPM, ghost mode |
-| **Haptics** | Optional vibration on supported hardware |
+## 🛠️ Tech Stack
 
-Settings persist in `localStorage`.
+- **Framework:** [Next.js 16](https://nextjs.org/) (App Router, React 19)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/) & Vanilla CSS Glassmorphism
+- **Animations:** [Motion](https://motion.dev/) (Framer Motion)
+- **Database:** [Upstash Redis](https://upstash.com/) (`@upstash/redis` REST SDK)
+- **Icons:** [Phosphor Icons](https://phosphoricons.com/) & [Tabler Icons](https://tabler-icons.io/)
+- **Charts:** [Recharts](https://recharts.org/)
+- **Tooling:** [TypeScript](https://www.typescriptlang.org/), [Biome](https://biomejs.dev/)
 
-## ðŸ›  Tech Stack
+---
 
-<details><summary><b>Typevibe</b> is built using the following technologies:</summary>
+## 🚀 Getting Started
 
-- [TypeScript](https://www.typescriptlang.org/): Typed superset of JavaScript.
-- [Next.js](https://nextjs.org/) 16: React framework with App Router.
-- [React](https://react.dev/) 19: UI library.
-- [Tailwind CSS](https://tailwindcss.com/): Utility-first CSS framework.
-- [Base UI](https://base-ui.com/): Unstyled, accessible component primitives from MUI.
-- [shadcn/ui](https://ui.shadcn.com/): Pre-styled component recipes.
-- [Motion](https://motion.dev/): Animation library for React.
-- [Recharts](https://recharts.org/): Composable charting library.
-- [Drizzle ORM](https://orm.drizzle.team/) + LibSQL: Type-safe database layer.
-- [Biome](https://biomejs.dev/): Fast linter and formatter.
-- [Serwist](https://serwist.pages.dev/): PWA / service worker toolkit.
-- [Vercel](https://vercel.com/): Deployment platform.
+### Prerequisites
 
-</details><br/>
+Ensure you have **Node.js 20+** or **Bun** installed on your system.
 
-[![Technologies Used](https://go-skill-icons.vercel.app/api/icons?i=nextjs,react,ts,tailwind,shadcn,framer,drizzle,sqlite,bun,biome,vercel&theme=dark&titles=true)](https://mudassirasghar.dev)
+### Installation
 
-## ðŸ§° Getting Started
-
-1. Make sure [Git](https://git-scm.com/downloads) and [Bun](https://bun.sh/) (or Node.js 20+) are installed.
-2. Fork this repository and clone **your fork**:
-
+1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/Mudassirdbs/Typevibe.git
-   cd Typevibe
+   git clone https://github.com/Mudassirdbs/TypeVibe.git
+   cd TypeVibe
    ```
 
-3. Install dependencies and start the dev server:
-
+2. **Install Dependencies:**
    ```bash
+   npm install
+   # or
    bun install
+   ```
+
+3. **Set Up Environment Variables:**
+   Create a `.env.local` file in the root directory:
+   ```env
+   UPSTASH_REDIS_REST_URL="https://your-upstash-id.upstash.io"
+   UPSTASH_REDIS_REST_TOKEN="your_upstash_token_here"
+   ```
+   *(Get your free database credentials at [Upstash Console](https://console.upstash.com))*
+
+4. **Run the Development Server:**
+   ```bash
+   npm run dev
+   # or
    bun dev
    ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+5. Open **[http://localhost:3000](http://localhost:3000)** in your browser.
 
-## ðŸ“œ Scripts
+---
+
+## 📜 Available Scripts
 
 | Command | Description |
-|--------|-------------|
-| `bun dev` | Development server |
-| `bun run build` | Optimized production build |
-| `bun start` | Serve the production build |
-| `bun run lint` | Lint with Biome |
-| `bun run lint:fix` | Lint and auto-fix with Biome |
-| `bun run format` | Format with Biome |
-| `bun run typecheck` | Type-check with TypeScript |
+|---|---|
+| `npm run dev` | Starts local Next.js development server |
+| `npm run build` | Builds optimized production bundle |
+| `npm run start` | Serves the production build |
+| `npm run typecheck` | Runs TypeScript type check (`tsc --noEmit`) |
+| `npm run lint` | Lints code using Biome |
 
-## ðŸ”§ Contributing
+---
 
-[![contributors](https://contrib.rocks/image?repo=Mudassirdbs/Typevibe)](https://github.com/Mudassirdbs/Typevibe/graphs/contributors)
+## 🌐 Deployment
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Deploying **Typevibe** to Vercel takes less than a minute:
 
-1. Fork the repo
-2. Create a new branch (`git checkout -b improve-feature`)
-3. Make the appropriate changes in the files
-4. Commit your changes (`git commit -am 'Improve feature'`)
-5. Push to the branch (`git push origin improve-feature`)
-6. Create a Pull Request
+1. Push your code to GitHub.
+2. Import your repository into [Vercel](https://vercel.com/new).
+3. Add `UPSTASH_REDIS_REST_URL` and `UPSTASH_REDIS_REST_TOKEN` in **Environment Variables**.
+4. Click **Deploy**!
 
-## ðŸš€ Follow & Contact Me
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FMudassirdbs%2FTypeVibe)
 
-[![Follow Me](https://img.shields.io/github/followers/Mudassirdbs?style=social&label=Github&maxAge=2592000)](https://github.com/Mudassirdbs "Follow Me")
-[![Email](https://img.shields.io/badge/Email-contact%40mudassirasghar.dev-blue?style=flat&logo=gmail&logoColor=white)](mailto:contact@mudassirasghar.dev)
-[![Website](https://img.shields.io/badge/Website-mudassirasghar.dev-007ACC?style=flat&logo=googlechrome&logoColor=white)](https://mudassirasghar.dev)
+---
 
-## ðŸ“ƒ Deployment
+## 🤝 Contributing
 
-| Method                     | Description                              | Action                                                                                                                                                         |
-| :------------------------- | :--------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ðŸ”§ Manual Build**        | Create an optimized production build.    | `bun run build`                                                                                                                                                |
-| **â–² Vercel (Recommended)** | Deploy instantly on the Vercel platform. | [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FMudassirdbs%2FTypevibe)               |
-| **ðŸŒ Netlify**             | Deploy easily on Netlify.                | [![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Mudassirdbs/Typevibe) |
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Mudassirdbs/TypeVibe/issues).
 
-For more details, check the [Next.js deployment docs](https://nextjs.org/docs/deployment).
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## â­ Give A Star
+---
 
-If you found this project useful, give it a star to help more people discover it!
+## 📬 Contact & Owner
 
-## ðŸŒŸ Star History
+**Mudassir Asghar**
+- **Website:** [mudassirasghar.dev](https://mudassirasghar.dev)
+- **Email:** [contact@mudassirasghar.dev](mailto:contact@mudassirasghar.dev)
+- **GitHub:** [@Mudassirdbs](https://github.com/Mudassirdbs)
 
-<a href="https://star-history.com/#Mudassirdbs/Typevibe&Timeline">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Mudassirdbs/Typevibe&type=Timeline&theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Mudassirdbs/Typevibe&type=Timeline" />
-  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Mudassirdbs/Typevibe&type=Timeline" />
-</picture>
-</a>
+---
 
-<br />
+## 📝 License
+
+Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
